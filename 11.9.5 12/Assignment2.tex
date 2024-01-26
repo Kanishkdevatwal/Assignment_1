@@ -1,0 +1,129 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{11.9.5}
+\author{EE23BTECH11029 - Kanishk}
+\maketitle
+
+\bigskip
+
+
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\textbf{Question}:\\ 
+The sum of the first four terms of an A.P. is 56. The sum of the last four terms is
+112. If its first term is 11, then find the number of terms.\\
+
+\textbf{Solution}:\\ 
+
+\footnotesize
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Symbol & Value & Description\\
+\hline
+$x(0)$ & $11$ & First term of AP \\
+\hline
+$y\brak{3}$ & $56$ & Sum of the first four terms of AP\\
+\hline
+$y\brak{n}-y\brak{n-4}$ & $112$& Sum of the last four terms of AP\\
+\hline
+\end{tabular}
+\\
+\small
+
+\centering{Input Parameters}
+
+\begin{align}
+y(3)&=\frac{4}{2}\brak{2x\brak{0}+3d}\\
+\frac{4}{2}\brak{2x\brak{0}+3d}&=56\\
+2x\brak{0}+3d&=28\\
+\implies d&=2
+\end{align}
+
+\begin{align}
+y\brak{n}-y\brak{n-4}&=\frac{4}{2}\brak{2x\brak{n}+3\brak{-d}}\\
+\frac{4}{2}\brak{2x\brak{n}+3\brak{-d}}&=112\\
+2x\brak{n}-3d&=56\\
+x\brak{n}&=31\\
+x\brak{0}+\brak{n}2&=31\\
+\implies n&=10
+\end{align}
+
+
+\begin{align}
+	x \brak{n} &\system{Z} X \brak{z}\\
+	x\brak{n}&=x\brak{0}+2n
+\end{align}
+
+
+\begin{align}
+X\brak{z}&= \sum_{n=-\infty}^{\infty} x\brak{n}Z^{-n} \\
+&=\sum_{n=0}^{\infty} x\brak{0}Z^{-n}\quad +\quad \sum_{n=-0}^{\infty}2nZ^{-n}\\
+\implies X\brak{z}&=\frac{x\brak{0}}{1-Z^{-1}}\quad+\quad 2\frac{Z^{-n}}{\brak{1-Z^{-1}}^{2}}.\quad \abs{z} > \abs{1}
+\end{align}
+
+\newpage
+
+\begin{figure}
+    \includegraphics[width=\columnwidth]{figs/fig.png}
+    \centering
+    Plot x(n) vs n
+    \label{fig:enter-label}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\end{document}
