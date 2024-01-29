@@ -14,7 +14,7 @@ x_values = x_n(n_values)
 
 # Plot the graph
 plt.stem(n_values, x_values, markerfmt='o', linefmt='b-', basefmt='r-')
-plt.title('Graph of x(n)')
+plt.title('Graph of Sequence x(n)')
 plt.xlabel('n')
 plt.ylabel('x(n)')
 plt.grid(True)
