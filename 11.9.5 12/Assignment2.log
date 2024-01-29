@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  30 JAN 2024 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  30 JAN 2024 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1344,12 +1344,12 @@ File: ts1txr.fd 2000/12/15 v3.1
 <figs/fig.png, id=7, 391.7034pt x 314.3745pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 100.
+Package pdftex.def Info: figs/fig.png  used on input line 99.
 (pdftex.def)             Requested size: 252.0pt x 202.25432pt.
 <figs/fig2.png, id=9, 398.2077pt x 314.3745pt>
 File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 107.
+Package pdftex.def Info: figs/fig2.png  used on input line 106.
 (pdftex.def)             Requested size: 252.0pt x 198.94441pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
@@ -1377,7 +1377,7 @@ e/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Assignment2.pdf (1 page, 73484 bytes).
+Output written on Assignment2.pdf (1 page, 70701 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
