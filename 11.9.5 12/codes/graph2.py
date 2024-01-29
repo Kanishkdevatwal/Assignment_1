@@ -20,7 +20,7 @@ highlighted_points = [3, 6, 10]
 for point in highlighted_points:
     plt.plot(point, y_values[n_values == point], marker='o', markersize=8, color='c', linestyle='None', label=f'y({point})')
 
-plt.title('Terms of the Sequence y(n) with Highlighted Points')
+plt.title('Terms of y(n)')
 plt.xlabel('n')
 plt.ylabel('y(n)')
 plt.grid(True)
