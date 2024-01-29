@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  28 JAN 2024 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  29 JAN 2024 19:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1298,48 +1298,50 @@ Package hyperref Info: Link coloring OFF on input line 43.
 \openout5 = `Assignment2.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--61
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-6.
+(./tables/TABLE.tex
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
+.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
+.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
+.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
+.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)
+))
 <figs/fig.png, id=7, 391.7034pt x 314.3745pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 116.
+Package pdftex.def Info: figs/fig.png  used on input line 107.
 (pdftex.def)             Requested size: 252.0pt x 202.25432pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
@@ -1347,14 +1349,17 @@ local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
  <./figs/fig.png>]
 (./Assignment2.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Assignment2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30391 strings out of 476025
- 600832 string characters out of 5790018
+ 30398 strings out of 476025
+ 600924 string characters out of 5790018
  1880388 words of memory out of 5000000
- 50161 multiletter control sequences out of 15000+600000
+ 50164 multiletter control sequences out of 15000+600000
  582164 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,11n,96p,1179b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1365,7 +1370,7 @@ e/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Assignment2.pdf (1 page, 57851 bytes).
+Output written on Assignment2.pdf (1 page, 57821 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
