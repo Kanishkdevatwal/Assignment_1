@@ -66,12 +66,11 @@ The sum of the first four terms of an A.P. is 56. The sum of the last four terms
     \label{}
 \end{table}
 
-
 \small
 \centering{Input Parameters}
 
 \begin{align}
-y\brak{n}&=\frac{\brak{n+1}}{2}\brak{2x\brak{n}+nd}\\
+y\brak{n}&=\frac{\brak{n+1}}{2}\brak{2x\brak{0}+nd}\\
 y(3)&=\frac{4}{2}\brak{2x\brak{0}+3d}\\
 \frac{4}{2}\brak{2x\brak{0}+3d}&=56\\
 2x\brak{0}+3d&=28\\
@@ -89,15 +88,8 @@ x\brak{0}+\brak{n}2&=31\\
 
 
 \begin{align}
-	x \brak{n} &\system{Z} X \brak{z}\\
-	x\brak{n}&=x\brak{0}+2n
-\end{align}
-
-
-\begin{align}
-X\brak{z}&= \sum_{n=-\infty}^{\infty} x\brak{n}Z^{-n} \\
-&=\sum_{n=0}^{\infty} x\brak{0}Z^{-n}\quad +\quad \sum_{n=-0}^{\infty}2nZ^{-n}\\
-\implies X\brak{z}&=\frac{x\brak{0}}{1-Z^{-1}}\quad+\quad 2\frac{Z^{-n}}{\brak{1-Z^{-1}}^{2}}.\quad \abs{z} > \abs{1}
+x\brak{n}&=\brak{x\brak{0}+2n}u\brak{n}\\
+X\brak{z}&=\frac{x\brak{0}}{1-Z^{-1}}\quad+\quad 2\frac{Z^{-n}}{\brak{1-Z^{-1}}^{2}}.\quad \abs{z} > \abs{1}
 \end{align}
 
 \newpage
@@ -106,6 +98,13 @@ X\brak{z}&= \sum_{n=-\infty}^{\infty} x\brak{n}Z^{-n} \\
     
     \includegraphics[width=\columnwidth]{figs/fig.png}
     \caption{Plot x(n) vs n}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}
+    
+    \includegraphics[width=\columnwidth]{figs/fig2.png}
+    \caption{Plot y(n) vs n}
     \label{fig:enter-label}
 \end{figure}
 
