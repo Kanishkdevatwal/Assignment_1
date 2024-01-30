@@ -30,8 +30,10 @@ plt.stem(n_values, y_values, markerfmt='o', linefmt='b-', basefmt='r-')
 
 # Highlight specific points with different colors in y(n)
 highlighted_points = [3, 6, 10]
-for point in highlighted_points:
-    plt.plot(point, y_values[n_values == point], marker='o', markersize=8, color='c', linestyle='None', label=f'y({point})')
+highlighted_colors = ['r', 'g', 'b']  # Different colors for y(3), y(6), y(10)
+
+for point, color in zip(highlighted_points, highlighted_colors):
+    plt.plot(point, y_values[n_values == point], marker='o', markersize=8, color=color, linestyle='None', label=f'y({point})')
 
 plt.title('Terms of y(n)')
 plt.xlabel('n')
