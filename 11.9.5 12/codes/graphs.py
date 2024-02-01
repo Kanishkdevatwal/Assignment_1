@@ -26,6 +26,6 @@ plt.xlabel('n')
 plt.ylabel('y(n)')
 plt.grid(True)
 plt.legend()
-plt.savefig('fig.png')
+plt.savefig('fig1.png')
 plt.close()
 
