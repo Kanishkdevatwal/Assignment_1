@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  30 JAN 2024 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  1 FEB 2024 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,17 +1174,14 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-(./Assignment2.aux
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-)
+(./Assignment2.aux)
 \openout1 = `Assignment2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 43.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 43.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxmi.fd
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 43.
@@ -1344,29 +1341,22 @@ File: ts1txr.fd 2000/12/15 v3.1
 <figs/fig.png, id=7, 462.528pt x 346.896pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 98.
-(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-<figs/fig2.png, id=9, 462.528pt x 346.896pt>
-File: figs/fig2.png Graphic file (type png)
-<use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 105.
+Package pdftex.def Info: figs/fig.png  used on input line 99.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./figs/fig.png> <./figs/fig2.png>] (./Assignment2.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+ <./figs/fig.png>]
+(./Assignment2.aux)
 Package rerunfilecheck Info: File `Assignment2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30403 strings out of 476025
- 601010 string characters out of 5790018
- 1876388 words of memory out of 5000000
- 50170 multiletter control sequences out of 15000+600000
+ 30395 strings out of 476025
+ 600885 string characters out of 5790018
+ 1875388 words of memory out of 5000000
+ 50164 multiletter control sequences out of 15000+600000
  582164 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,10n,96p,1179b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1377,10 +1367,10 @@ e/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Assignment2.pdf (1 page, 72594 bytes).
+Output written on Assignment2.pdf (1 page, 59112 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
