@@ -4,22 +4,21 @@ import matplotlib.pyplot as plt
 # Load data from the output.dat file
 file_path_y = 'output.dat'
 
-def y_n(n):
+def y(n):
     return np.where(n < 0, 0, np.loadtxt(file_path_y))
 
 # Generate n values from -2 to 10
-n_values = np.arange(-2, 11)
-y_values = y_n(n_values)
+n = np.arange(-2, 11)
 
 # Plot the graph for y(n)
-plt.stem(n_values, y_values, markerfmt='o', linefmt='b-', basefmt='r-')
+plt.stem(n, y(n), markerfmt='o', linefmt='b-', basefmt='r-')
 
 # Highlight specific points with different colors in y(n)
 highlighted_points = [3, 6, 10]
 highlighted_colors = ['r', 'g', 'b']  # Different colors for y(3), y(6), y(10)
 
 for point, color in zip(highlighted_points, highlighted_colors):
-    plt.plot(point, y_values[n_values == point], marker='o', markersize=8, color=color, linestyle='None', label=f'y({point})')
+    plt.plot(point, y(n)[n == point], marker='o', markersize=8, color=color, linestyle='None', label=f'y({point})')
 
 plt.title('Terms of y(n)')
 plt.xlabel('n')
