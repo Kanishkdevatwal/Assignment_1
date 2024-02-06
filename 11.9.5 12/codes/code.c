@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int y(int n){
+    return 11 * (n + 1) + n * (n + 1);
+}
+
 int main() {
     int n;
     FILE *outputFile;
@@ -24,8 +28,8 @@ int main() {
 
     // Print the sequence values to the console and save them to the file
     for (n = 1; n <= 10; ++n) {
-        printf("%d \n", 11 * (n + 1) + n * (n + 1));
-        fprintf(outputFile, "%d \n", 11 * (n + 1) + n * (n + 1));
+        printf("%d \n", y(n));
+        fprintf(outputFile, "%d \n", y(n));
     }
 
     // Close the file
